@@ -1,0 +1,14 @@
+new int x
+in var x
+new int i
+var i = 0
+loop Tanmay 15
+math var x = var x + var i
+\c whydoe
+if holder ( var x ) == ( raw 10 )
+out raw it's 10
+endif holder
+out var x
+math var i = var i + raw 1
+endloop Tanmay
+out raw end of program

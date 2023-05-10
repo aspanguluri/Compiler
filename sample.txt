@@ -1,0 +1,28 @@
+\c Put this code in main.txt to see what it does!
+\c declaring an integer variable called x
+new int x
+\c declaring a string variable called y
+new string y
+\c assigning the integer 1 to x
+var x = 1
+\c assigning the string 'hello' to y
+var y = hello
+\c print 'Enter something: ' to the screen
+out raw Enter something:
+\c taking the user's input and assigning it to the string variable y
+in var y
+out raw This is what you entered:
+\c prints what is stored in the string var y to the screen
+out var y
+\c creates a loop called 'theLoop' that loops 5 times
+loop theLoop 5
+\c adds 1 to the integer variable x
+math var x = var x + raw 1
+\c creates an if statement called 'theIf' that sees whether the integer variable x is equal to the raw integer 5
+if theIf ( var x ) == ( raw 5 )
+out raw The value of x is 5!
+\c signals the end of the scope of the if block
+endif theIf
+\c signals the end of the scope of the loop block
+endloop theLoop
+out raw This is the end of the sample program.
